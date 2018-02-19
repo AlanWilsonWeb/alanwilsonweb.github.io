@@ -3,5 +3,9 @@
 }
 
 body{
-  background: linear-gradient(to right, #808080, #262626);
+  background: linear-gradient(to right, #343a40, #262626);
+}
+
+.nav-link:hover{
+  background-color: black;
 }
