@@ -1,4 +1,3 @@
-// function moveToJum() {
-//     var jumDiv = document.getElementById("mainjumbo");
-//     window.scrollTo(0, jumDiv);
-// };
+function moveToJum() {
+    window.scrollTo(0, 0);
+};

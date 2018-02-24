@@ -1,11 +1,18 @@
 #mainjumbo{
-
+  color:#262626;
 }
 
 body{
-  background: linear-gradient(to right, #343a40, #262626);
+  font-family: 'Titillium Web', sans-serif;
+  background: linear-gradient(to bottom, #343a40, #262626);
+  color:white;
 }
 
 .nav-link:hover{
   background-color: black;
+}
+#bottomBar{
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
