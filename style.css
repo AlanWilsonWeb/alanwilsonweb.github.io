@@ -23,4 +23,8 @@ body{
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 30px;
+  box-shadow: 1px 1px 5px black;
+}
+.jumbotron{
+  box-shadow: 1px 1px 5px black;
 }
