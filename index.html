@@ -6,16 +6,16 @@
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css" type="text/css" />
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="index.js"></script>
     </head>
-  <body>
+  <body><div id="totaltop"></div>
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-      <a class="navbar-brand" href="#">Alan Wilson</a>
+      <a class="navbar-brand">Alan Wilson</a>
       <ul class="navbar-nav">
-       <li class="nav-item active">
+       <li class="nav-item">
          <a class="nav-link" href="#achieVe">Achievements</a>
        </li>
        <li class="nav-item">
@@ -30,14 +30,14 @@
      </ul>
 </nav>
     <div class="container">
-    <div id="mainjumbo" class="jumbotron text-center">
+    <div id="mainjumbo" class="jumbotron text-center bg-primary text-white">
       <h1>Alan Wilson</h1>
       <i>"Seeking to secure an entry-level Programming and Development position that will utilize, challenge, and expand my education, experience, and overall passion for Development, while working to enhance my employers’ operations, and provide reinforcement for those working alongside of me."</i>
     </div>
   </div>
 <div id="achieVe">
-<ul>
-<li><h3>Professional Profile</h3></li>
+<div class="areaBar"><h3>Professional Profile</h3></div>
+<div class="jumbotron bg-dark">
 <li>Field or Area of Accomplishment</li>
 <li>Achievement</li>
 <li>Achievement</li>
@@ -58,35 +58,41 @@
 <li>Field or Area of Accomplishment</li>
 <li>Achievement</li>
 <li>Achievement</li>
-</ul>
+</div>
 </div>
 <div id="eduHist">
-<h3>Education</h3>
-<ul>
-  <li>2017-Present: CoderCamps (Scottsdale, AZ)</li>
-</ul>
+<div class="areaBar"><h3>Education</h3></div>
+<div class="jumbotron bg-dark">
+  <li>2017-Present: CoderCamps / Woz-U (Scottsdale, AZ)</li>
+  <li>2003-2009: Illinois Central College (East Peoria, IL)</li>
+  <li>2001-2002: Southern Illinois University (Carbondale, IL)</li>
+  <li>1997-2001: Olympia High School (Stanford, IL)</li>
 </div>
-<div id="skillZ"><h3>Proficient Skills:</h3>
-  <ul>
+</div>
+<div id="skillZ">
+  <div class="areaBar"><h3>Proficient Skills:</h3></div>
+  <div class="jumbotron bg-dark">
     <li>HTML</li>
     <li>CSS</li>
     <li>JavaScript</li>
-    <li>Jquery</li>
+    <li>JSON</li>
+    <li>jQuery</li>
     <li>ReactJS</li>
     <li>SQL</li>
-    <li>noSQL</li>
-    <li>Node.JS</li>
+    <li>MongoDB</li>
+    <li>NodeJS</li>
     <li>Bootstrap</li>
     <li>Graphic Design</li>
     <li></li>
-  </ul>
+  </div>
 </div>
-<div id="workHist"><p><h3>Work History</h3></p>
+<div id="workHist">
+  <div class="areaBar"><h3>Work History</h3></div>
+<div class="jumbotron bg-dark">
 <div><h4>Warranty Administrator</h4></div>
 <div><h5>Ray Dennison Chevrolet</h5></div>
 <div><h6>05/2015 - Present</h6></div>
 Worked in a Support and Administration role with responsibilities of:
-<ul>
 <li>Invoicing and billing</li>
 <li>Warranty claims management and handling</li>
 <li>Dealership inventory management and billing for services performed</li>
@@ -94,12 +100,12 @@ Worked in a Support and Administration role with responsibilities of:
 <li>Report generation</li>
 <li>Clerical and office support</li>
 <li>Technical support for shop equipment (computers, printers, electronics)</li>
-</ul>
+</div>
+<div class="jumbotron bg-dark">
 <div><h4>Service Consultant</h4></div>
 <div><h5>Ray Dennison Chevrolet</h5></div>
-<div><h6>09/2008 - 05-2015</h6></div>
+<div><h6>09/2008 - 05/2015</h6></div>
 Worked with customers in a friendly and professional manner to:
-<ul>
 <li>Set appointments</li>
 <li>Coordinate repairs</li>
 <li>Sell needed work</li>
@@ -108,25 +114,21 @@ Worked with customers in a friendly and professional manner to:
 <li>Provide technical support and troubleshooting options for phone and walk-in customers</li>
 <li>Facilitate transportation options</li>
 <li>Be the main point of contact between the facility and the customer</li>
-</ul>
 While managing a team of technicians to:
-<ul>
 <li>Dispatch daily work</li>
 <li>Track production</li>
 <li>Maintain a schedule</li>
 <li>Resolve conflicts of interest, scheduling, and technician skills</li>
-</ul>
+</div>
+<div class="jumbotron bg-dark">
 <div><h4>Automotive Technician</h4></div>
 <div><h5>Ray Dennison Chevrolet</h5></div>
-<div><h6>03/2002 - 09-2008</h6></div>
+<div><h6>03/2002 - 09/2008</h6></div>
 Light-Duty vehicle maintenance:
-<ul>
 <li>Oil changes</li>
 <li>Tire rotations</li>
 <li>Safety Inspections</li>
-</ul>
 Minor sales and repairs of maintenance items:
-<ul>
 <li>Air Filters</li>
 <li>Cabin Filters</li>
 <li>Bulbs</li>
@@ -134,8 +136,19 @@ Minor sales and repairs of maintenance items:
 <li>Brakes</li>
 <li>Tire Repairs</li>
 <li>Minor Technical Repairs</li>
-</ul>
 </div>
-<div id="bottomBar"><button onclick="moveToJum();" type="button" class="btn btn-dark">Top/Home</button></div>
+<div class="jumbotron bg-dark">
+<div><h4>Network Cable Installer</h4></div>
+<div><h5>Olympia CUSD #16</h5></div>
+<div><h6>06/1998 - 08/1999</h6></div>
+Summer Job installing network connections to the Olympia School District for their expansion of the Wide Area Network.
+Duties and areas of focus:
+<li>Ethernet/Cat 5 terminations and routing cables into every room of the High School and Middle School campuses</li>
+<li>Fiber Optics terminations and routing Fiber Optics between substations</li>
+<li>Troubleshooting connection issues</li>
+<li>Assembling and setup of computers for use on the Network</li>
+</div>
+</div>
+<div id="bottomBar"><a href="#totaltop" class="btn btn-primary" role="button">Top/Home</a></div>
 </body>
 </html>
