@@ -31,3 +31,12 @@ body{
   box-shadow: 1px 1px 5px black;
   border-radius: 5px;
 }
+#contact{
+  padding: 10px;
+}
+.dropdown-item{
+  color: white;
+}
+.nav-link:hover{
+  color: white;
+}
