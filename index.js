@@ -1,5 +1,6 @@
 // bg-primary codes:
-// #007bff
+// #00d8ff react blue
+// #007bff info blue
 // rgb(0, 123, 255)
 //
 
