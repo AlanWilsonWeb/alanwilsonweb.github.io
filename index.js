@@ -1,6 +1,7 @@
 // bg-primary codes:
 // #007bff
 // rgb(0, 123, 255)
+//
 
 $(document).ready(function(){
   $("a").on('click', function(event) {
@@ -12,6 +13,6 @@ $(document).ready(function(){
       }, 800, function(){
         window.location.hash = hash;
       });
-    } 
+    }
   });
 });
