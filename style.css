@@ -3,7 +3,20 @@ body{
   background: linear-gradient(to bottom, #343a40, #262626);
   color:white;
   text-shadow: 1px 1px 5px black;
+  /* background-size: 400% 400%;
+  animation: Gradient 15s ease infinite; */
 }
+/* @keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+} */
 #mainjumbo{
 }
 .nav-item{
@@ -25,6 +38,9 @@ body{
 }
 .jumbotron{
   box-shadow: 1px 1px 5px black;
+  /* background-image: url(wallpaper.jpg);
+  background-position: center;
+  background-repeat: no-repeat; */
 }
 .row{
   margin-bottom: 30px;
