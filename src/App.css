@@ -1,0 +1,52 @@
+
+.nav-item{
+  border-radius: 5px;
+}
+.nav-item:hover{
+  background-color: #007bff;
+  color: white;
+}
+#bottomBar{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.faderow{
+  background: linear-gradient(to right, rgba(0,123,255,1), rgba(0,123,255,0));
+  padding: 10px;
+  border-radius: 5px;
+}
+.jumbotron{
+  box-shadow: 1px 1px 5px black;
+  /* background-image: url(wallpaper.jpg);
+  background-position: center;
+  background-repeat: no-repeat; */
+}
+.row{
+  margin-bottom: 30px;
+  box-shadow: 1px 1px 5px black;
+  border-radius: 5px;
+}
+#contact{
+  padding: 10px;
+}
+.nav-link:hover{
+  color: white;
+}
+.bg-transdark{
+  background-color: rgba(0, 0, 0, 0.0);
+}
+a{
+  color: white;
+}
+.navbar-brand{
+  text-align: center;
+}
+.fa-react {
+  animation: App-logo-spin infinite 20s linear;
+  color: #00d8ff;
+}
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
