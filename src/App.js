@@ -7,7 +7,7 @@ import Route from './Route';
 class App extends Component {
   render() {
     return (
-      <div>
+      <div className="mycomponent">
         <Row>
           <Col sm="2">
             <Navigation />

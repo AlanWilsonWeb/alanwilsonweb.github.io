@@ -13,7 +13,7 @@ class Links extends React.Component {
       <div>
         <Fade in={this.state.fadein}>
       <Jumbotron className="text-center bg-primary text-white">
-        <h1>Links</h1>
+        <h1><i className="far fa-hand-point-up"></i> Links</h1>
         <h5>and Other Contact Information</h5>
       </Jumbotron>
       <Row>

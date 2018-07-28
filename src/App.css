@@ -15,6 +15,11 @@
   background: linear-gradient(to right, rgba(0,123,255,1), rgba(0,123,255,0));
   padding: 10px;
   border-radius: 5px;
+  margin-bottom: 30px;
+  box-shadow: 1px 1px 5px black;
+}
+.hovergray:hover{
+  background: linear-gradient(to right, rgba(108,117,125,1), rgba(108,117,125,0));
 }
 .jumbotron{
   box-shadow: 1px 1px 5px black;
@@ -22,10 +27,8 @@
   background-position: center;
   background-repeat: no-repeat; */
 }
-.row{
-  margin-bottom: 30px;
+.mycomponent{
   box-shadow: 1px 1px 5px black;
-  border-radius: 5px;
 }
 #contact{
   padding: 10px;
@@ -38,6 +41,10 @@
 }
 a{
   color: white;
+}
+a:hover{
+  color: white;
+  text-decoration: none;
 }
 .navbar-brand{
   text-align: center;

@@ -25,17 +25,19 @@ class Github extends React.Component {
       <div>
         <Fade in={this.state.fadein}>
       <Jumbotron className="text-center bg-primary text-white">
-        <h1>Github Links</h1>
+        <h1><i className="fab fa-github"></i> Github Links</h1>
         <h5>lorem epsom salt</h5>
       </Jumbotron>
       {this.state.repos.map((repo, index) => <div key={index}>
-          <div id={repo.id}>
+          <a href={repo.html_url} target="_blank">
+            <div id={repo.id}>
             <Row>
-              <Col sm="12" className="faderow"><h3><i className="fas fa-code-branch"></i> {repo.name}</h3>
+              <Col sm="12" className="faderow hovergray"><h3><i className="fas fa-code-branch"></i> {repo.name}</h3>
                 <h5>{repo.description}</h5>
               </Col>
             </Row>
           </div>
+        </a>
       </div>
     )}
   </Fade>
