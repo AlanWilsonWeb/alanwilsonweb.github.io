@@ -1,6 +1,8 @@
 import React from "react";
 import Landing from './Landing';
 import Github from './Github';
+import About from './About';
+import Links from './Links';
 
 class Route extends React.Component {
 
@@ -28,8 +30,12 @@ routeSwitch() {
     switch(pathname) {
       case "#home":
         return <Landing />;
+      case "#about":
+        return <About />;
       case "#github":
         return <Github />;
+      case "#links":
+        return <Links />;
       default:
         return <Landing />;
     }
