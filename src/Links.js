@@ -16,11 +16,9 @@ class Links extends React.Component {
         <h1><i className="far fa-hand-point-up"></i> Links</h1>
         <h5>and Other Contact Information</h5>
       </Jumbotron>
-      <Row>
-        <Col sm="12" className="faderow">
-        <h3>Links</h3>
-      </Col>
-      </Row>
+      <Jumbotron className="bg-dark text-center">
+        <h1>links</h1>
+      </Jumbotron>
     </Fade>
     </div>
     )

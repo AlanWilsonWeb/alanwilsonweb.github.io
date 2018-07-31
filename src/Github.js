@@ -29,7 +29,7 @@ class Github extends React.Component {
         <h5>A collection of things I've made</h5>
       </Jumbotron>
       {this.state.repos.map((repo, index) => <div key={index}>
-          <a href={repo.html_url} target="_blank">
+          <a rel="noopener noreferrer" href={repo.html_url} target="_blank">
             <div id={repo.id}>
             <Row>
               <Col sm="12" className="faderow hovergray">

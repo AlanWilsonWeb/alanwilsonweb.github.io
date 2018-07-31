@@ -16,11 +16,9 @@ class About extends React.Component {
         <h1><i className="far fa-user"></i> About Me</h1>
         <h5>Some Information</h5>
       </Jumbotron>
-      <Row>
-        <Col sm="12" className="faderow">
-        <h3>About</h3>
-      </Col>
-      </Row>
+      <Jumbotron className="bg-dark text-center">
+        <h1>About</h1>
+      </Jumbotron>
     </Fade>
     </div>
     )

@@ -7,7 +7,7 @@
   color: white;
 }
 .blueicon{
-  transition: transform .2s;
+  transition: all .2s;
 }
 .blueicon:hover{
   color: #007bff;
@@ -19,14 +19,18 @@
     right: 0;
 }
 .faderow{
-  background: linear-gradient(to right, rgba(0,123,255,1), rgba(0,123,255,0));
+  background-color: rgba(0,123,255,1);
   padding: 10px;
   border-radius: 5px;
   margin-bottom: 30px;
   box-shadow: 1px 1px 5px black;
+  background-image: linear-gradient(to right, transparent, #343a40);
+}
+.hovergray{
+  transition: all 0.7s;
 }
 .hovergray:hover{
-  background: linear-gradient(to right, rgba(108,117,125,1), rgba(108,117,125,0));
+  background-color: rgba(108,117,125,1);
 }
 .jumbotron{
   box-shadow: 1px 1px 5px black;
@@ -63,4 +67,7 @@ a:hover{
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+.card{
+  border-color: black;
 }
