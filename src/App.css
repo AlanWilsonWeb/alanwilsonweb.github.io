@@ -6,8 +6,12 @@
   background-color: #007bff;
   color: white;
 }
+.blueicon{
+  transition: transform .2s;
+}
 .blueicon:hover{
-  color: #007bff
+  color: #007bff;
+  transform: scale(1.1);
 }
 #bottomBar{
     position: fixed;
