@@ -1,6 +1,12 @@
 {
-  "main.css": "static/css/main.9e9a7648.css",
-  "main.css.map": "static/css/main.9e9a7648.css.map",
-  "main.js": "static/js/main.859defb1.js",
-  "main.js.map": "static/js/main.859defb1.js.map"
+  "main.css": "static/css/main.805c198c.css",
+  "main.css.map": "static/css/main.805c198c.css.map",
+  "main.js": "static/js/main.00fb73ca.js",
+  "main.js.map": "static/js/main.00fb73ca.js.map",
+  "static\\media\\bingbong.jpg": "static/media/bingbong.2f1e7117.jpg",
+  "static\\media\\fibonacci.jpg": "static/media/fibonacci.847118bd.jpg",
+  "static\\media\\hashrouter.jpg": "static/media/hashrouter.f4bf8b30.jpg",
+  "static\\media\\moviefive.jpg": "static/media/moviefive.55e397c1.jpg",
+  "static\\media\\scriptquiz.jpg": "static/media/scriptquiz.5289fa5a.jpg",
+  "static\\media\\todolist.jpg": "static/media/todolist.fc251dde.jpg"
 }
