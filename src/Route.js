@@ -1,6 +1,6 @@
 import React from "react";
 import Landing from './Landing';
-import Github from './Github';
+import Portfolio from './Portfolio';
 import About from './About';
 import Links from './Links';
 
@@ -32,8 +32,8 @@ routeSwitch() {
         return <Landing />;
       case "#about":
         return <About />;
-      case "#github":
-        return <Github />;
+      case "#portfolio":
+        return <Portfolio />;
       case "#links":
         return <Links />;
       default:
