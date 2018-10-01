@@ -30,12 +30,16 @@ routeSwitch() {
     switch(pathname) {
       case "#home":
         return <Landing />;
+        break;
       case "#about":
         return <About />;
+        break;
       case "#portfolio":
         return <Portfolio />;
+        break;
       case "#links":
         return <Links />;
+        break;
       default:
         return <Landing />;
     }
