@@ -1,4 +1,4 @@
-body{
+body, html{
   font-family: 'Titillium Web', sans-serif;
   background: linear-gradient(to bottom, #343a40, #262626);
   color: white;
