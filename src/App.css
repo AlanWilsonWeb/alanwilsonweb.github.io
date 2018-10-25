@@ -5,13 +5,6 @@
   background-color: #007bff;
   color: white;
 }
-.blueicon{
-  transition: all .2s;
-}
-.blueicon:hover{
-  color: #007bff;
-  transform: scale(1.1);
-}
 #bottomBar{
     position: fixed;
     bottom: 0;
@@ -34,6 +27,7 @@
 }
 .nav-item:hover{
   transform: scale(1.1);
+  box-shadow: 1px 1px 5px black;
 }
 .nav-link:hover{
   color: white;
@@ -74,4 +68,21 @@ a:hover{
 }
 .portfolioRow:hover{
   transform: scale(1.03);
+}
+.landingIcons{
+  vertical-align: middle;
+  text-align: left;
+  font-size: 2.5em;
+  box-shadow: 1px 1px 5px black;
+  border-radius: 5px;
+  padding: 5px;
+  transition: all 0.5s;
+  display: block;
+}
+.landingIcons:hover {
+  background: #007bff;
+  transform: scale(1.03);
+}
+.buttonz{
+  box-shadow: 1px 1px 5px black;
 }
