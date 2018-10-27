@@ -1,5 +1,5 @@
 import React from 'react';
-import { Fade, Jumbotron, Container, Row, Col } from 'reactstrap';
+import { Fade, Jumbotron } from 'reactstrap';
 
 class Landing extends React.Component {
   constructor(props) {
@@ -13,8 +13,8 @@ class Landing extends React.Component {
       <div>
         <Fade in={this.state.fadein}>
       <Jumbotron className="text-center bg-primary text-white">
-        <h1>Hi, I'm Alan</h1>
-        <h5>I Write Code!</h5>
+        <h1>Alan Wilson</h1>
+        <h5>Developer</h5>
       </Jumbotron>
       <Jumbotron className="bg-dark text-center">
         <h3>With Emphasis and Proficiency In:</h3>
