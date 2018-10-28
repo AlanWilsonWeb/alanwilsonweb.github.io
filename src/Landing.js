@@ -12,7 +12,7 @@ class Landing extends React.Component {
     return(
       <div>
         <Fade in={this.state.fadein}>
-      <Jumbotron className="text-center bg-primary text-white">
+      <Jumbotron className="text-center myBlueBack text-white mainjumbo">
         <h1>Alan Wilson</h1>
         <h5>Developer</h5>
       </Jumbotron>

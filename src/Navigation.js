@@ -12,7 +12,7 @@ class Navigation extends React.Component {
     return(
       <Fade in={this.state.fadein}>
       <Nav vertical>
-        <NavbarBrand><h3><i className="fab fa-react reactlogo"></i> Alan Wilson</h3></NavbarBrand>
+        <NavbarBrand><h3><b><i className="fab fa-react reactlogo"></i></b> Alan Wilson</h3></NavbarBrand>
         <NavItem>
           <NavLink href="#home">Home</NavLink>
         </NavItem>

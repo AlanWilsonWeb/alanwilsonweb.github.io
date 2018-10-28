@@ -1,8 +1,14 @@
+.myBlueBack{
+  background-color: rgb(0, 32, 96);
+}
+.myBlue{
+  color: rgb(0, 32, 96);
+}
 .nav-item{
   border-radius: 5px;
 }
 .nav-item:hover{
-  background-color: #007bff;
+  background-color: rgb(0, 32, 96);
   color: white;
 }
 #bottomBar{
@@ -12,9 +18,11 @@
 }
 .jumbotron{
   box-shadow: 1px 1px 5px black;
-  /* background-image: url(wallpaper.jpg);
+}
+.mainjumbo{
+  background-image: url(code.png);
   background-position: center;
-  background-repeat: no-repeat; */
+  background-repeat: no-repeat;
 }
 .mycomponent{
   box-shadow: 1px 1px 5px black;
@@ -47,7 +55,8 @@ a:hover{
 }
 .reactlogo {
   animation: App-logo-spin infinite 20s linear;
-  color: #00d8ff;
+  color: rgb(0, 32, 96);
+  text-shadow: 0px 0px 5px white;
 }
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
@@ -80,9 +89,10 @@ a:hover{
   display: block;
 }
 .landingIcons:hover {
-  background: #007bff;
+  background-color: rgb(0, 32, 96);
   transform: scale(1.03);
 }
 .buttonz{
   box-shadow: 1px 1px 5px black;
+  background-color: rgb(0, 32, 96);
 }

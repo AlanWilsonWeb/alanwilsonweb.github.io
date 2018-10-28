@@ -6,6 +6,8 @@ import scriptquiz from './images/scriptquiz.jpg';
 import bingbong from './images/bingbong.jpg';
 import fibonacci from './images/fibonacci.jpg';
 import todolist from './images/todolist.jpg';
+import brewgoggles from './images/brewgoggles.jpg';
+import closingtag from './images/closingtag.jpg';
 
 class Portfolio extends React.Component {
   constructor(props) {
@@ -20,12 +22,32 @@ class Portfolio extends React.Component {
     return(
       <div>
         <Fade in={this.state.fadein}>
-      <Jumbotron className="text-center bg-primary text-white">
+      <Jumbotron className="text-center myBlueBack text-white">
         <h1><i className="fas fa-code"></i> My Portfolio</h1>
         <h5>A collection of Code, Things I've made, and Projects I've been a part of</h5>
       </Jumbotron>
     <Jumbotron className="bg-dark">
-      <h1 className="text-center">Notable Projects</h1>
+      <h1 className="text-center">Current Works in Progress</h1>
+      <Row className="portfolioRow">
+        <Col md="4"><img alt="" className="portfolioImage img-fluid" src={brewgoggles} /></Col>
+        <Col md="8">
+          <h2><u>Brew Goggles</u></h2>
+          Utilizing data from the Untappd API, this application will display information about craft beer. Built in a full stack with React, NodeJS, Express, and A MongoDB/mLab database- it will sync data from the API to its localized database regularly to provide the content feed for this application.
+          <br />
+          <Button className="buttonz" href="https://github.com/NannerFox/Brew-Goggles" target="_blank" color="primary"><i className="fas fa-code"></i> View Code</Button>
+        </Col>
+      </Row>
+      <br />
+      <Row className="portfolioRow">
+        <Col md="4"><img alt="" className="portfolioImage img-fluid" src={closingtag} /></Col>
+        <Col md="8">
+          <h2><u>/Closing Tag</u></h2>
+          Born from the need of an organized list of links to share among fellow students, this project will allow registered students to submit links to any site that is relevant with information about coding. The premise is to have students link to their favorite "how to's" and documentations related to materials that were learned. It will then be available to be seen and used as a reference for future students.
+          <br />
+          <Button className="buttonz" href="https://github.com/LMS-Designs/Closing-Tag" target="_blank" color="primary"><i className="fas fa-code"></i> View Code</Button>
+        </Col>
+      </Row>
+      <h1 className="text-center">Past Notable Projects</h1>
       <Row className="portfolioRow">
         <Col md="4"><img alt="" className="portfolioImage img-fluid" src={moviefive} /></Col>
         <Col md="8">

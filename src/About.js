@@ -12,7 +12,7 @@ class About extends React.Component {
     return(
     <div>
       <Fade in={this.state.fadein}>
-      <Jumbotron className="text-center bg-primary text-white">
+      <Jumbotron className="text-center myBlueBack text-white">
         <h1><i className="far fa-user"></i> About Me</h1>
         <h5>Some Information</h5>
       </Jumbotron>
