@@ -1,14 +1,15 @@
 {
-  "main.css": "static/css/main.b8a90b7b.css",
-  "main.css.map": "static/css/main.b8a90b7b.css.map",
-  "main.js": "static/js/main.ab0bfe78.js",
-  "main.js.map": "static/js/main.ab0bfe78.js.map",
+  "main.css": "static/css/main.234a405a.css",
+  "main.css.map": "static/css/main.234a405a.css.map",
+  "main.js": "static/js/main.66e65008.js",
+  "main.js.map": "static/js/main.66e65008.js.map",
   "static\\media\\bingbong.jpg": "static/media/bingbong.2f1e7117.jpg",
   "static\\media\\brewgoggles.jpg": "static/media/brewgoggles.1423fa7f.jpg",
   "static\\media\\closingtag.jpg": "static/media/closingtag.b5e30310.jpg",
   "static\\media\\fibonacci.jpg": "static/media/fibonacci.847118bd.jpg",
   "static\\media\\hashrouter.jpg": "static/media/hashrouter.f4bf8b30.jpg",
   "static\\media\\moviefive.jpg": "static/media/moviefive.55e397c1.jpg",
+  "static\\media\\profile.jpg": "static/media/profile.ec59cd39.jpg",
   "static\\media\\scriptquiz.jpg": "static/media/scriptquiz.5289fa5a.jpg",
   "static\\media\\todolist.jpg": "static/media/todolist.fc251dde.jpg"
 }
