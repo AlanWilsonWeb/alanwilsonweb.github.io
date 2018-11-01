@@ -15,6 +15,7 @@ class Landing extends React.Component {
       <Jumbotron className="text-center myBlueBack text-white mainjumbo">
         <h1>Alan Wilson</h1>
         <h5>Developer</h5>
+        <div id="contacts"><div id="email"><a href="mailto:alanwilson020@gmail.com">alanwilson020@gmail.com</a> | 309.241.7990</div></div>
       </Jumbotron>
       <Jumbotron className="bg-dark text-center">
         <h3>With Emphasis and Proficiency In:</h3>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Fade, Row, Col, Jumbotron } from 'reactstrap';
+import profile from './images/profile.jpg';
 
 class About extends React.Component {
   constructor(props) {
@@ -17,7 +18,8 @@ class About extends React.Component {
         <h5>Some Information</h5>
       </Jumbotron>
       <Jumbotron className="bg-dark text-center">
-        <h1>About</h1>
+        <h1>About Me:</h1>
+        <img id="profilePic" className="img-fluid" src={profile} alt=""/>
       </Jumbotron>
     </Fade>
     </div>
