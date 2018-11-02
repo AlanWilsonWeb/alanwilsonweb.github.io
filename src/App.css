@@ -100,9 +100,29 @@ a:hover{
   background-color: rgb(0, 32, 96);
 }
 #profilePic{
-  width: 300px;
+  width: 250px;
   height: auto;
   object-fit: contain;
-  border-radius: 150px;
+  border-radius: 125px;
   box-shadow: 1px 1px 5px black;
+}
+.linkLink:hover{
+  background-color: rgb(0, 32, 96);
+  transform: scale(1.03);
+}
+.linkLink{
+  border-radius: 5px;
+  transition: all 0.3s;
+  padding: 10px;
+  box-shadow: 1px 1px 5px black;
+  margin: auto;
+  vertical-align: middle;
+}
+.rightSide{
+  text-align: left;
+  margin: auto;
+  vertical-align: middle;
+}
+#profileRight{
+  text-align: left;
 }

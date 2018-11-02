@@ -22,7 +22,7 @@ class Portfolio extends React.Component {
     return(
       <div>
         <Fade in={this.state.fadein}>
-      <Jumbotron className="text-center myBlueBack text-white">
+      <Jumbotron className="text-center myBlueBack text-white mainjumbo">
         <h1><i className="fas fa-code"></i> My Portfolio</h1>
         <h5>A collection of Code, Things I've made, and Projects I've been a part of</h5>
       </Jumbotron>
