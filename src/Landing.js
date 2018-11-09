@@ -13,7 +13,7 @@ class Landing extends React.Component {
       <div>
         <Fade in={this.state.fadein}>
       <Jumbotron className="text-center myBlueBack text-white mainjumbo">
-        <h1>Alan Wilson</h1>
+        <h1><i className="fab fa-react reactlogo"></i> Alan Wilson</h1>
         <h5>Developer</h5>
         <div id="contacts"><div id="email"><a href="mailto:alanwilson020@gmail.com">alanwilson020@gmail.com</a> | 309.241.7990</div></div>
       </Jumbotron>

@@ -26,7 +26,7 @@ class Portfolio extends React.Component {
         <h1><i className="fas fa-code"></i> My Portfolio</h1>
         <h5>A collection of Code, Things I've made, and Projects I've been a part of</h5>
       </Jumbotron>
-    <Jumbotron className="bg-dark">
+    <Jumbotron className="bg-dark mediaPort">
       <h1 className="text-center">Current Works in Progress</h1>
       <Row className="portfolioRow">
         <Col md="4"><img alt="" className="portfolioImage img-fluid" src={brewgoggles} /></Col>
