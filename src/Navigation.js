@@ -1,13 +1,15 @@
 import React from 'react';
-import { Fade, Nav, NavbarBrand, NavItem, NavLink } from 'reactstrap';
+import { Fade, Button, Nav, NavbarBrand, NavItem, NavLink } from 'reactstrap';
+import resume from './resume.pdf';
 
 class Navigation extends React.Component {
   constructor(props) {
-     super(props)
-     this.state = {
-       fadein: true,
-     }
-   }
+    super(props)
+    this.state = {
+      fadein: true
+    }
+  }
+
   render() {
     return(
       <Fade in={this.state.fadein}>
@@ -23,6 +25,9 @@ class Navigation extends React.Component {
         </NavItem>
         <NavItem>
           <NavLink href="#links">Links / Contact</NavLink>
+        </NavItem>
+        <NavItem>
+          <NavLink href={resume} target="_blank">My Resume</NavLink>
         </NavItem>
       </Nav>
     </Fade>

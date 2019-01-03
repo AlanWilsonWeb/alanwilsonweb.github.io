@@ -8,6 +8,7 @@ import fibonacci from './images/fibonacci.jpg';
 import todolist from './images/todolist.jpg';
 import brewgoggles from './images/brewgoggles.jpg';
 import closingtag from './images/closingtag.jpg';
+import stpats from './images/stpats.jpg';
 
 class Portfolio extends React.Component {
   constructor(props) {
@@ -48,6 +49,16 @@ class Portfolio extends React.Component {
         </Col>
       </Row>
       <h1 className="text-center">Past Notable Projects</h1>
+      <Row className="portfolioRow">
+        <Col md="4"><img alt="" className="portfolioImage img-fluid" src={stpats} /></Col>
+        <Col md="8">
+          <h2><u>Peoria St. Patrick Society</u></h2>
+          My first site made for a client that is live and in use currently. Informative site for the Peoria, Illinois St. Patrick Society with links and sign up forms for various aspects of their organization. Utilizes a PHP/HTML/CSS core on a WordPress CMS. Authentication with active SSL certificate and payment options setup through the organization. The page was meant to streamline member registration, as well as bring their annual parade signups and information into the digital age. 
+          <br />
+          <Button className="buttonz" href="https://stpatpeoria.com/" target="_blank" color="primary"><i class="far fa-eye"></i> Live Site</Button>
+        </Col>
+      </Row>
+      <br />
       <Row className="portfolioRow">
         <Col md="4"><img alt="" className="portfolioImage img-fluid" src={moviefive} /></Col>
         <Col md="8">
